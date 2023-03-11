@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Cтруктура HTML документу</h1>
+<header>
+    <h2>Шапка нашого сайту</h2>
+    <nav>
+        <h3>Навігація</h3>
+        <ul>
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#contacts">Contacts</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h2>Конткнтна частина</h2>
+    <section id="home">
+        <style>
+          body {
+            margin: 0;
+            padding: 0;
+          }
+          .bg h2, .bg h3 {
+            color: white;
+          }
+          .bg {
+            position: relative;
+            width: 100%;
+            height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 2px;
+          }
+          .bg img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+          }
+        </style>
+        <div class="bg">
+            <img src="HeaderBackground.png" alt="bg">
+            <h2>Bhromaon</h2>
+            <h3>Safe Travel Anywhere</h3>
+        </div>
+    </section>
+    <section id="about">
+       <article>
+           <header>
+               <h2>What is Lorem Ipsum?</h2>
+           </header>
+           <main>
+               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+           </main>
+           <footer>
+               <a href="#">link 1</a>
+               <a href="#">link 2</a>
+               <a href="#">link 3</a>
+           </footer>
+       </article>
+    </section>
+    <section id="contacts">
+        Секція 3
+    </section>
+</main>
+<footer>
+    <h2>Нижня частина нашого сайту</h2>
+</footer>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dEBVe8Ij7JU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
