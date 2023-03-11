@@ -1,0 +1,58 @@
+.container {
+  width: 100%;
+  max-width: 970px;
+  margin: 0 auto;
+}
+.header-wrapper {
+  border-bottom: 1px solid #828282;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+header nav ul li a {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  color: #828282;
+  text-decoration: unset;
+}
+header nav ul li a.active-link {
+  color: #070707;
+}
+.skills {
+  padding: 100px 0 ;
+}
+.skills .title {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46px;
+  text-align: center;
+  color: #070707;
+}
+.skills .subtitle {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #070707;
+  margin: 20px 0 50px 0;
+}
+.skills .items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
