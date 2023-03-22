@@ -1,0 +1,56 @@
+ul.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+ul.nav li:hover {
+  color: red;
+}
+ul.nav li:not(.not) {
+  color: blue;
+}
+h1 {
+  font-size: 30px;
+  color: red;
+  width: 100%;
+  max-width: 100px;
+  margin: 0 auto;
+  text-align: center;
+  transition: 1s ease all;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+h1:before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0;
+  background-color: red;
+  transition: 1s ease all;
+}
+h1:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0;
+  background-color: red;
+  transition: 1s ease all;
+}
+h1:hover:after, h1:hover:before {
+  width: 100%;
+}
+p::first-letter {
+  font-size: 40px;
+  color: blue;
+}
+{
+  client=opera
+  q=sdfgffd
+  sourceid=opera
+  ie=UTF-8
+  oe=UTF-8
+}

@@ -1,0 +1,46 @@
+@import "reset";
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header {
+  height: 80px;
+  .logo {
+    width: 200px;
+    float: left;
+  }
+  nav {
+    width: 352px;
+    float: left;
+    margin: 0 192px;
+    ul {
+      li {
+        margin-right: 20px;
+        display: inline-block;
+        &:last-child {
+          margin-right: 0;
+        }
+        a {
+          color: red;
+        }
+      }
+    }
+  }
+  .btn {
+    width: 252px;
+    float: left;
+    button {
+      width: 110px;
+      &.first {
+        float: left;
+      }
+      &.second {
+        float: right;
+      }
+    }
+  }
+}
+main {
+
+}
