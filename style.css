@@ -1,0 +1,125 @@
+.kirill-lev {
+  font-family: "Lucida Sans Unicode";
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: "Lucida Sans Unicode";
+  src: url(https://levkirill.github.io/beetroot_fe/hw_8/font/lucida-sans-unicode.eot);
+  src: url(https://levkirill.github.io/beetroot_fe/hw_8/font/lucida-sans-unicode.eot?#iefix) format("embedded-opentype"), url(https://levkirill.github.io/beetroot_fe/hw_8/font/lucida-sans-unicode.svg#lucida-sans-unicode) format("svg"), url(https://levkirill.github.io/beetroot_fe/hw_8/font/lucida-sans-unicode.ttf) format("truetype"), url(https://levkirill.github.io/beetroot_fe/hw_8/font/lucida-sans-unicode.woff) format("woff"), url(https://levkirill.github.io/beetroot_fe/hw_8/font/lucida-sans-unicode.woff2) format("woff2");
+}
+.kirill-lev *, .kirill-lev ::before, .kirill-lev ::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.kirill-lev .site_main {
+  background: #3399CC;
+  border: 25px solid #2B81AC;
+  width: 100%;
+  min-height: 100vh;
+  padding: 2.3125em 15px;
+  color: #ffffff;
+}
+
+.kirill-lev h1 {
+  max-width: 1166px;
+  width: 100%;
+  margin: 0 auto 2.375em;
+}
+.kirill-lev h1 span {
+  font-size: 1.3125em;
+  line-height: 1.1905;
+}
+.kirill-lev h1 i.wi {
+  font-size: 1.6875em;
+  line-height: 1.444;
+  margin-left: 4px;
+}
+
+.kirill-lev .items {
+  max-width: 1166px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 0;
+  border-top: 2px solid #ffffff;
+  border-left: 2px solid #ffffff;
+  text-align: center;
+  background-color: #ffffff;
+}
+.kirill-lev .items .item {
+  display: inline-block;
+  width: 100%;
+  border: 2px solid #ffffff;
+  font-size: 16px;
+  border-left: none;
+  border-top: none;
+  padding: 1.625em 15px 1.6875em;
+  opacity: 0.7;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+.kirill-lev .items .item:hover {
+  opacity: 1;
+}
+.kirill-lev .items .item:nth-child(1) {
+  background-color: #3399CC;
+}
+.kirill-lev .items .item:nth-child(2) {
+  background-color: #33CCCC;
+}
+.kirill-lev .items .item:nth-child(3) {
+  background-color: #996699;
+}
+.kirill-lev .items .item:nth-child(4) {
+  background-color: #C24747;
+}
+.kirill-lev .items .item:nth-child(5) {
+  background-color: #E2674A;
+}
+.kirill-lev .items .item:nth-child(6) {
+  background-color: #FFCC66;
+}
+.kirill-lev .items .item:nth-child(7) {
+  background-color: #99CC99;
+}
+.kirill-lev .items .item:nth-child(8) {
+  background-color: #669999;
+}
+.kirill-lev .items .item:nth-child(9) {
+  background-color: #CC6699;
+}
+.kirill-lev .items .item:nth-child(10) {
+  background-color: #339966;
+}
+.kirill-lev .items .item:nth-child(11) {
+  background-color: #666699;
+}
+.kirill-lev .items .half {
+  width: 50%;
+}
+.kirill-lev .items .quarter {
+  width: 25%;
+}
+.kirill-lev .items h2, .items p {
+  font-size: 1.375em;
+  line-height: 1.18182;
+}
+.kirill-lev .items p {
+  padding-top: 0.2273em;
+}
+.kirill-lev .items i.wi {
+  font-size: 1.91em;
+  font-weight: 400;
+  line-height: 1.45;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.kirill-lev p.wish {
+  max-width: 1166px;
+  width: 100%;
+  margin: 2.1875em auto 0;
+  font-size: 1em;
+  line-height: 1.1875em;
+}
