@@ -1,10 +1,10 @@
-.container {
+.sidyi .container {
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
     padding: 0 20px;
 }
-.italic {
+.sidyi .italic {
     font-family: "Playfair Display";
     font-style: italic;
     font-weight: 400;
@@ -12,13 +12,13 @@
     line-height: 52px;
     color: #689FF2;
 }
-.button__wrapper {
+.sidyi .button__wrapper {
     display: inline-block;
     position: relative;
     opacity: 0.7;
     transition: 0.3s;
 }
-.button__wrapper .button {
+.sidyi .button__wrapper .button {
     font-family: "Lato";
     font-style: normal;
     font-weight: 700;
@@ -28,7 +28,7 @@
     text-transform: uppercase;
     color: #53F3CD;
 }
-.button__wrapper .button .button__decotion {
+.sidyi .button__wrapper .button .button__decotion {
     background-color: #53F3CD;
     opacity: 0.3;
     width: 100%;
@@ -38,16 +38,16 @@
     left: 10px;
     display: block;
 }
-.button__wrapper:hover {
+.sidyi .button__wrapper:hover {
     opacity: 1;
 }
-.first-section {
+.sidyi .first-section {
     background-color: black;
 }
-.first-section .first-section__content {
+.sidyi .first-section .first-section__content {
     max-width: 523px;
 }
-.first-section .first-section__content h2 {
+.sidyi .first-section .first-section__content h2 {
     font-family: "Playfair Display";
     font-style: normal;
     font-weight: 400;
@@ -55,7 +55,7 @@
     line-height: 52px;
     color: #FFFFFF;
 }
-.first-section .first-section__content p {
+.sidyi .first-section .first-section__content p {
     font-family: "Lato";
     font-style: normal;
     font-weight: 300;
@@ -65,7 +65,7 @@
     opacity: 0.8;
     margin-top: 20px;
 }
-.first-section .first-section__content .button__wrapper {
+.sidyi .first-section .first-section__content .button__wrapper {
     margin-top: 50px;
 }
 
