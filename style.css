@@ -1,0 +1,46 @@
+ .Rokytianska-Svitlana {
+  width: 100%;
+  max-width: 2120px;
+  margin: 0 auto;
+}
+.Rokytianska-Svitlana h2 {
+  font-family: 'Farro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #2F281E;
+  margin-top: 100px;
+  width: 2120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  background: plum;
+}
+.Rokytianska-Svitlana .items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  width: 2120px;
+  background: pink;
+ 
+}
+.Rokytianska-Svitlana .item {
+  width: 500px;
+  height: 540px;
+  margin: 100px 0;
+}
+.Rokytianska-Svitlana h3 {
+  font-family: 'Farro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #2F281E;
+  margin: 30px;
+}
+.Rokytianska-Svitlana img {
+    width: 500px;
+}
