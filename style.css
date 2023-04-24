@@ -1,0 +1,25 @@
+.Liudmyla_Starovoit {
+  border: 5px solid #6b4848;
+  margin: 0;
+  border-radius: 0.5em;
+  width: 100%;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 15px;
+  margin: 0;
+  padding: 20px 0;
+}
+.list li {
+  padding: 1em 2em;
+  list-style: none;
+  background-color: #828fdd;
+  border: 5px dotted rebeccapurple;
+}
+.list li:hover {
+  border: 5px solid red;
+  background-color: aliceblue;
+}
