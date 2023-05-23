@@ -1,19 +1,24 @@
-let baseUrl = 'https://api.themoviedb.org/3/discover/movie';
+let baseUrl = 'https://api.themoviedb.org/3/movie/';
 let apiKey = 'b03d508a9e788070ca877f98f3f8bbba';
-let page = 1;
 let imgBaseURL = "https://image.tmdb.org/t/p/w500"
 
-function data () {
+for(let i=0; i<localStorage.length; i++) {
+  let key = localStorage.key(i);
+  if (!key.indexOf('movie-')) {
+    data (localStorage.getItem(key));
+  }
+}
+
+function data (movieID) {
   $.ajax({
-    url: baseUrl,
+    url: baseUrl + movieID,
     method: 'get',
     dataType: 'json',
     data: {
       api_key: apiKey,
-      page: page,
     },
     success: function(data){
-     render (data);
+      render (data);
     },
     error: function (jqXHR, exception) {
       if (jqXHR.status === 0) {
@@ -35,20 +40,12 @@ function data () {
   });
 }
 
-data ();
 
 function render (data) {
-  let items = data.results;
-  for (let i = 0; i < items.length; i++) {
-    let layout = `<div class="movie">` +
-        `<h2 class="title">${items[i].title}</h2>` +
-        `<img src="${imgBaseURL + items[i].poster_path}">` +
-        `<a href="movie.html#id=${items[i].id}">More</a>` +
-        `<button onclick="like(${items[i].id})" class="like">like</button>` +
-        `</div>`;
-    $(".movies").append(layout);
-  }
-}
-function like (id) {
-  window.localStorage.setItem('movie-'+id, id);
+  let layout = `<div class="movie">` +
+      `<h2 class="title">${data.title}</h2>` +
+      `<img src="${imgBaseURL + data.poster_path}">` +
+      `<p>${data.overview}</p>` +
+      `</div>`;
+  $(".movies").append(layout);
 }
